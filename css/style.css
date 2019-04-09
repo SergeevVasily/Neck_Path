@@ -104,11 +104,17 @@ ul li a:hover{
 
 
 .parallax-window {
-    min-height: 800px;
+    min-width: 200px;
+    min-height: 400px;
     background: transparent;
 }
 
 .parallax-window2{
-    min-height: 600px;
     background: transparent;
 }
+
+.imgBox{
+    size: auto;
+    width: auto;
+}
+
