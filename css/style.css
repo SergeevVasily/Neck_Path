@@ -110,6 +110,9 @@ ul li a:hover{
 }
 
 .parallax-window2{
+    margin-top: 30px;
+    min-width: 200px;
+    min-height: 400px;
     background: transparent;
 }
 
