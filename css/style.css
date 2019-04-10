@@ -110,10 +110,6 @@ ul li a:hover{
     background: transparent;
 }
 
-.imgBox{
-    size: auto;
-    width: auto;
-}
 
 @media (min-width: 375px) {
     .parallax-window {
