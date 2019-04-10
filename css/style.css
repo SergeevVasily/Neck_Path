@@ -60,7 +60,7 @@ ul li a:hover{
 .sidebarBtn span{
 
     display: block;
-    width: 38px;
+    width: 33px;
     height: 3px;
     background: #f5f5f5;
     position: absolute;
@@ -89,7 +89,6 @@ ul li a:hover{
 }
 
 .sidebarBtn.toggle span{
-
     background: transparent;
 }
 
@@ -102,17 +101,12 @@ ul li a:hover{
     transform: rotate(-45deg);
 }
 
-
 .parallax-window {
-    min-width: 200px;
-    min-height: 400px;
     background: transparent;
 }
 
 .parallax-window2{
     margin-top: 30px;
-    min-width: 200px;
-    min-height: 400px;
     background: transparent;
 }
 
@@ -121,3 +115,372 @@ ul li a:hover{
     width: auto;
 }
 
+@media (min-width: 375px) {
+    .parallax-window {
+        min-width: 200px;
+        min-height: 400px;
+        background: transparent;
+    }
+    .parallax-window2{
+        margin-top: 30px;
+        min-width: 200px;
+        min-height: 400px;
+        background: transparent;
+    }
+
+}
+
+
+.contentBox
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    z-index: 10;
+}
+
+
+.contentBox h1{
+    color: #fff;
+    font-size: 4.5rem;
+    opacity: 0.6;
+
+}
+
+
+.contentBox h2{
+    color: #fff;
+    font-size: 3.5rem;
+    opacity: 0.6;
+}
+
+.contentBox p{
+
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.sec1{
+
+    background: #000;
+}
+
+
+.headerText{
+    font-size: 2.5rem;
+    color: #fff;
+}
+.headerText h2{
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.placeBox{
+    position: relative;
+    max-width: 300px;
+    height: 400px;
+    margin: 0 auto;
+    background: #000;
+    margin-top: 30px;
+
+}
+
+.placeBox .imgBx{
+    width: 100%;
+    height: 100%;
+
+}
+
+.placeBox .imgBx img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.placeBox .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.placeBox .content h3{
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    background: rgba(0,0,0,.95);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    text-align: center;
+
+}
+
+.placeBox .content h3 span{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+.sec2{
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+.resume{
+    background-color: #000;
+    position: relative;
+    padding: 100px 0;
+}
+
+.parallax-window2{
+    min-height: 670px;
+    background: transparent;
+
+}
+
+.sec2 h2{
+    color: #fff;
+    font-size: 5.5rem;
+    vertical-align: center;
+    font-family: 'Open Sans', sans-serif;
+    opacity: 0.8;
+
+}
+
+.btnD1{
+    border: 2px solid #fff;
+    color: #000;
+    background: #fff;
+    border-radius: 50px;
+    padding: 12px 40px;
+    font-size: 1.15rem;
+    outline: none;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.post{
+    position: relative;
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.post .imgBx{
+    height: 400px;
+}
+
+.post .imgBx img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.post .content{
+    padding: 15px;
+    background: #000;
+    color: #fff;
+}
+
+.post .content h1{
+    margin: 0;
+    padding: 0 0 10px;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.contact{
+
+    position: relative;
+}
+
+.contact .form-control{
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(255,255,255,.2);
+    height: 50px;
+    border-radius: 0;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    font-size: 1.25rem;
+}
+.contact .form-control:hover,
+.contact .form-control:focus{
+    background: transparent;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    box-shadow: none;
+}
+
+.contact .textarea{
+    min-height: 100px;
+}
+
+.contact label{
+    color: #fff;
+    font-size: 1.25rem;
+}
+
+.contact form{
+    z-index: 1000;
+    position: relative;
+}
+
+footer{
+    background: #000;
+    padding: 50px 0 0;
+}
+
+.sci{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sci li{
+    list-style: none;
+    margin: 0 20px;
+
+}
+
+
+.sci li a{
+    color: #777;
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.sci li a:hover{
+    color: #fff;
+}
+
+.cprty{
+    margin-top: 20px;
+    color: #777;
+    padding: 2px;
+    text-align: center;
+}
+
+.cprty a,
+.cprty a:hover{
+    color: #fff;
+}
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+}
+
+@media (max-width: 992px){
+    .navbar .navbar-toggler{
+        border: none;
+
+    }
+    .navbar .navbar-toggler:focus{
+        border: none;
+        outline: none;
+        color: black;
+        transition: .5s;
+    }
+    .banner{
+        min-height: 100vh;
+        padding: 100px 0;
+    }
+    .sec1 h2,
+    .contentBox h1{
+        font-size: 2rem;
+    }
+    .navbar .navbar-brand{
+        font-size: 2rem;
+    }
+    .navbar .navbar-brand:hover{
+        font-size: 2rem;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    sec1{
+        padding: 20px 0;
+    }
+
+    sec1 p{
+        font-size: 9px;
+    }
+
+    .headerText h2{
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .resume{
+
+        padding: 20px 0;
+    }
+
+    .post .imgBx{
+        height: 200px;
+    }
+
+    .contact .container{
+        padding: 20px;
+    }
+
+    .contact .form-control{
+        height: 40px;
+        border: 1px solid #fff;
+    }
+
+    .btnD1{
+        padding: 10px 40px;
+        margin-top: 10px;
+
+    }
+
+    footer{
+        padding: 20px ;
+    }
+
+    .sci li{
+        margin: 20px;
+    }
+
+    .sci li a{
+        color: #777;
+        font-size: 1.5rem;
+        transition: 0.5s;
+    }
+}
+
+.dropdown .dropdown-menu{
+    outline: none;
+    background: transparent;
+    color: #fff;
+    transition: 0.5s;
+    border: none;
+}
+
+.dropdown .dropdown-item{
+    color: #fff;
+    border: none;
+}
+
+.dropdown{
+    outline: none;
+    border: none;
+}
