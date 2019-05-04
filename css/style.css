@@ -110,9 +110,8 @@ ul li a:focus{
 }
 
 .parallax-window {
-    max-width: auto;
-    min-height: 600px;
     background: transparent;
+    size: auto;
 }
 
 .parallax-window2{
@@ -123,7 +122,6 @@ ul li a:focus{
 
 @media (max-width: 376px) {
     .parallax-window {
-
         min-height: 300px;
         background: transparent;
     }
@@ -513,4 +511,42 @@ contact label {
 }
 hr{
     color: #fff;
+}
+
+/* */
+glow {
+    margin-top: 100px;
+    text-align: center;
+span {
+    color: $light;
+    text-shadow:
+    0 0 2px $light,
+    0 0 10px $light,
+    0 0 20px $glow,
+    0 0 30px $glow,
+    0 0 40px $glow,
+    0 0 50px $glow;
+    animation: blink 1.5s infinite alternate;
+}
+.major {
+    display: block;
+    font-size: $fs;
+}
+.minor {
+    display: block;
+    font-size: $fs/10*6;
+}
+}
+
+@keyframes blink {
+    0%   {}
+    100% {
+        text-shadow:
+        0 0 2px $light,
+        0 0 10px $light,
+        0 0 20px $light,
+        0 0 40px $glow,
+        0 0 70px $glow,
+        0 0 80px $glow;
+    }
 }
