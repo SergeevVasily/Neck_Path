@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     font-family: Verdana, sans-serif;
+    background-color: #1b1e21;
+    color: #fff;
 }
 .sidebar{
     position: fixed;
@@ -108,6 +110,8 @@ ul li a:focus{
 }
 
 .parallax-window {
+    max-width: auto;
+    min-height: 600px;
     background: transparent;
 }
 
@@ -117,9 +121,9 @@ ul li a:focus{
 }
 
 
-@media (min-width: 274px) {
+@media (max-width: 376px) {
     .parallax-window {
-        min-width: 250px;
+
         min-height: 300px;
         background: transparent;
     }
@@ -506,4 +510,7 @@ footer{
 contact label {
     color: #000000;
     font-size: 1.25rem;
+}
+hr{
+    color: #fff;
 }
