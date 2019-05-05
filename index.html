@@ -24,18 +24,6 @@
             })
         })
     </script>
-
-    <script type="text/javascript">
-
-        $(window).scroll(function () {
-            var scroll = $(window).scrollTop();
-            $(".zoom img").css({
-                width: (100 + scroll/12) + "%"
-            })
-        })
-
-
-    </script>
 </head>
 <body>
 
@@ -59,7 +47,7 @@
             <li>T</li>
             <li>H</li>
         </ul>
-        <a href="" class="enter-button">press to enter</a>
+        <a href="" class="enter-button">press to enter </a>
     </div>
 
 </div>
@@ -81,23 +69,27 @@ $(function () {
 })
 
 </script>
-<section id="first" class="zoom">
-    <img src="images/front1.jpg" alt="">
+<section id="first">
+    <div class="">
+    <div class="parallax-window " data-parallax="scroll" data-image-src="images/front1.jpg" >
+        <div style="padding-top: 70px; text-align: center">
+        </div>
 
+    </div>
+    </div>
 
-
-
-</section>
-<div class="sidebar">
-    <ul>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Gallery</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-    <button class="sidebarBtn">
-        <span></span>
-    </button>
 </div>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="sidebarBtn">
+            <span></span>
+        </button>
+    </div>
+</section>
 
 
 <section class="about container" >
