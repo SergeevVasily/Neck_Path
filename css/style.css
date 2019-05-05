@@ -115,7 +115,7 @@ ul li a:focus{
 
 @media (max-width: 476px) {
     .parallax-window {
-        min-height: 300px;
+        min-height: 470px;
     }
     .fly-in-text li {
         display: inline-block;
