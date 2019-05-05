@@ -2,7 +2,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: Verdana, sans-serif;
-
 }
 .sidebar{
     position: fixed;
@@ -110,7 +109,7 @@ ul li a:focus{
 
 .parallax-window {
     background: transparent;
-    min-height: 600px;
+    min-height: 700px;
 }
 
 
@@ -485,3 +484,6 @@ hr{
 }
 
 /* */
+::-webkit-scrollbar {
+    display: none;
+}
