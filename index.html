@@ -26,9 +26,51 @@
     </script>
 </head>
 <body>
+
+
+<div class="wrapper">
+    <h1>Hello There!</h1>
+</div>
+<div class="welcome-section content-hidden">
+    <div class="content-wrap">
+        <ul class="fly-in-text">
+            <li>1</li>
+            <li>4</li>
+            <li>5</li>
+            <li>N</li>
+            <li>E</li>
+            <li>C</li>
+            <li>K</li>
+            <li>P</li>
+            <li>A</li>
+            <li>T</li>
+            <li>H</li>
+        </ul>
+        <a href="" class="enter-button">come in</a>
+    </div>
+
+</div>
+
+
+<script type="text/javascript">
+$(function () {
+    var welcomeSection = $('.welcome-section'),
+        enterButton = welcomeSection.find('.enter-button');
+
+    setTimeout(function () {
+        welcomeSection.removeClass('content-hidden')
+    },800);
+
+    enterButton.on('click', function (e) {
+            e.preventDefault();
+            welcomeSection.addClass('content-hidden').fadeOut();
+    })
+})
+
+</script>
 <section id="first">
     <div class="">
-    <div class="parallax-window col-sm-12 " data-parallax="scroll" data-image-src="images/front1.jpg" >
+    <div class="parallax-window " data-parallax="scroll" data-image-src="images/front1.jpg" >
         <div style="padding-top: 70px; text-align: center">
         </div>
 
@@ -181,16 +223,6 @@
     </div>
 </footer>
 
-<script type="text/javascript">
-
-    $(window).scroll(function() {
-        var scrollPos = $(this).scrollTop();
-        $(".parallax-window").css({
-            'background-size' : 110 + scrollPos + '%'
-        });
-    });
-
-</script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/lightbox.min.js"></script>
 <script>
