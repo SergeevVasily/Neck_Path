@@ -113,7 +113,7 @@ ul li a:focus{
 
 
 
-@media (max-width: 415px) {
+@media (max-width: 376px) {
     .parallax-window {
         min-height: 300px;
     }
@@ -533,8 +533,9 @@ hr{
 
 .fly-in-text li {
     display: inline-block;
+    overflow: hidden;
     margin-right: 10px;
-    font-size: 2em;
+    font-size: 1em;
     color: #fff;
     opacity: 1;
     transition: all 3s ease;
@@ -549,7 +550,7 @@ hr{
     text-align: center;
     font-size: 1em;
     text-decoration: none;
-    color: #86cfda;
+    color: #fff;
     opacity: 1;
     margin-top: 30px;
     transition: all 1s ease 3s;
@@ -557,7 +558,6 @@ hr{
 .enter-button:hover{
     text-decoration: none;
     color: #fff;
-    opacity: 1;
 }
 
 .content-hidden .fly-in-text li{
