@@ -24,6 +24,18 @@
             })
         })
     </script>
+
+    <script type="text/javascript">
+
+        $(window).scroll(function () {
+            var scroll = $(window).scrollTop();
+            $(".zoom img").css({
+                width: (100 + scroll/12) + "%"
+            })
+        })
+
+
+    </script>
 </head>
 <body>
 
@@ -69,27 +81,23 @@ $(function () {
 })
 
 </script>
-<section id="first">
-    <div class="">
-    <div class="parallax-window " data-parallax="scroll" data-image-src="images/front1.jpg" >
-        <div style="padding-top: 70px; text-align: center">
-        </div>
+<section id="first" class="zoom">
+    <img src="images/front1.jpg" alt="">
 
-    </div>
-    </div>
 
-</div>
-    <div class="sidebar">
-        <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <button class="sidebarBtn">
-            <span></span>
-        </button>
-    </div>
+
+
 </section>
+<div class="sidebar">
+    <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <button class="sidebarBtn">
+        <span></span>
+    </button>
+</div>
 
 
 <section class="about container" >
