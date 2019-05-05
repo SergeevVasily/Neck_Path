@@ -118,14 +118,7 @@ ul li a:focus{
     .parallax-window {
         min-height: 550px;
     }
-    .fly-in-text li {
-        display: inline-block;
-        margin-right: 10px;
-        font-size: 5em;
-        color: #fff;
-        opacity: 1;
-        transition: all 3s ease;
-    }
+
 
 
 }
@@ -534,8 +527,7 @@ hr{
 
 .fly-in-text li {
     display: inline-block;
-    overflow: hidden;
-    margin-right: 10px;
+
     font-size: 1em;
     color: #fff;
     opacity: 1;
