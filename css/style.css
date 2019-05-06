@@ -588,7 +588,5 @@ hr{
     height: 100vh;
 }
 .video-background{
-    position: absolute;
-    right: 50%;
     bottom: 0;
 }
