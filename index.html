@@ -8,7 +8,7 @@
     <title>145 Neck Path</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="js/parallax.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
@@ -79,22 +79,26 @@ $(function () {
 
 </script>
 <section id="first">
-    <div class="">
-    <div class="parallax-window " data-parallax="scroll" data-image-src="images/np8.jpg" >
+<div class="video">
+    <video autoplay loop class="video-background" muted play-inline>
+        <source src="images/vid.mp4" type="video/mp4">
+    </video>
+</div>
+
+    <!--div class="">
+    <div class="parallax-window " data-parallax="scroll" data-image-src="images/front1.jpg" >
         <div style="padding-top: 70px; text-align: center">
         </div>
 
     </div>
-    </div>
-
-</div>
-    <div class="sidebar">
+    </div>-->
+    <div class="sidebar clearfix">
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#gallery">Gallery</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <button class="sidebarBtn">
+        <button class="sidebarBtn clearfix">
             <span></span>
         </button>
     </div>
