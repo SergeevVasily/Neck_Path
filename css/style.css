@@ -555,7 +555,7 @@ hr{
     font-size: 1em;
     text-decoration: none;
     color: gold;
-    opacity: 1;
+    opacity: 0.7;
     margin-top: 30px;
     transition: all 1s ease 3s;
 }
@@ -586,10 +586,9 @@ hr{
 
 .video{
     height: 100vh;
-    position: relative;
 }
 .video-background{
     position: absolute;
-    right: 0;
+    right: 50%;
     bottom: 0;
 }
