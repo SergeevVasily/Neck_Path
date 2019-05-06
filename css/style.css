@@ -109,7 +109,7 @@ ul li a:focus{
 
 .parallax-window {
     min-height: 700px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
 
 
@@ -550,7 +550,7 @@ hr{
 }
 .enter-button:hover{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .content-hidden .fly-in-text li{
@@ -562,7 +562,7 @@ hr{
 .content-hidden .fly-in-text li:nth-child(4){transform: translate3d(-50px, 0, 0);}
 .content-hidden .fly-in-text li:nth-child(5){transform: translate3d(-30px, 0, 0);}
 .content-hidden .fly-in-text li:nth-child(6){transform: translate3d(-10px, 0, 0);}
-.content-hidden .fly-in-text li:nth-child(7){transform: translate3d(0px, 0, 0);}
+.content-hidden .fly-in-text li:nth-child(7){transform: translate3d( 0px, 0, 0);}
 .content-hidden .fly-in-text li:nth-child(8){transform: translate3d(10px, 0, 0);}
 .content-hidden .fly-in-text li:nth-child(9){transform: translate3d(30px, 0, 0);}
 .content-hidden .fly-in-text li:nth-child(10){transform: translate3d(50px, 0, 0);}
