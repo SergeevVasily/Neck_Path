@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Playfair Display', serif;
     background-color: black;
     color: white;
 }
@@ -520,7 +520,7 @@ hr{
 }
 
 .content-wrap a{
-    color: yellow;
+    color: white;
 }
 
 .fly-in-text{
