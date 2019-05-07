@@ -127,11 +127,14 @@ ul li a:focus{
         min-height: 550px;
     }
     .video{
-
+        width: 100%;
+        height: auto;
     }
     .video-background{
-        width: 100%;
         top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
     }
 }
 
