@@ -305,7 +305,7 @@ ul li a:focus{
     border-bottom: 2px solid rgba(255,255,255,.2);
     height: 50px;
     border-radius: 0;
-    background: lightyellow;
+    background: lightgrey;
     color: #000000;
     font-size: 1.25rem;
 }

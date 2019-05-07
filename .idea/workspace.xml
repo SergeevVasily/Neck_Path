@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72d4179c-0b2c-435c-84a7-c6fd13b56db4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,7 +24,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="705">
+                <state relative-caret-position="1436">
                   <caret line="125" column="85" selection-start-line="125" selection-start-column="85" selection-end-line="125" selection-end-column="85" />
                   <folding>
                     <element signature="n#style#0;n#h1#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -54,8 +54,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="265">
-                  <caret line="548" selection-start-line="548" selection-end-line="548" />
+                <state relative-caret-position="205">
+                  <caret line="307" column="25" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
                 </state>
               </provider>
             </entry>
@@ -83,8 +83,8 @@
         <option value="$PROJECT_DIR$/js/parallax.min.js" />
         <option value="$PROJECT_DIR$/css/lightbox.min.css" />
         <option value="$PROJECT_DIR$/js/lightbox.min.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -180,12 +180,12 @@
       <workItem from="1556970686445" duration="14437000" />
       <workItem from="1557005153098" duration="41502000" />
       <workItem from="1557113288586" duration="19371000" />
-      <workItem from="1557196718709" duration="4600000" />
+      <workItem from="1557196718709" duration="5803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151356000" />
+    <option name="totallyTimeSpent" value="152559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1990" y="27" width="1850" height="1053" extended-state="6" />
@@ -258,16 +258,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="168" selection-start-line="168" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
+        <state relative-caret-position="1436">
           <caret line="125" column="85" selection-start-line="125" selection-start-column="85" selection-end-line="125" selection-end-column="85" />
           <folding>
             <element signature="n#style#0;n#h1#0;n#section#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -277,6 +270,13 @@
             <element signature="n#style#0;n#h1#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="307" column="25" selection-start-line="307" selection-start-column="25" selection-end-line="307" selection-end-column="25" />
         </state>
       </provider>
     </entry>
