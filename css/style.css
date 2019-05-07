@@ -122,12 +122,12 @@ ul li a:focus{
 }
 
 
-@media (max-width: 476px) {
-    .parallax-window {
-    }
+@media (min-width: 276px) {
+
 
     .video-background{
         height: 300px;
+        width: auto;
     }
 }
 
@@ -398,10 +398,6 @@ footer{
         margin-bottom: 20px;
     }
 
-    .resume{
-
-        padding: 20px 0;
-    }
 
     .post .imgBx{
         height: 200px;
