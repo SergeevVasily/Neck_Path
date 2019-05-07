@@ -124,17 +124,10 @@ ul li a:focus{
 
 @media (max-width: 476px) {
     .parallax-window {
-        min-height: 550px;
     }
-    .video{
-        width: 100%;
-        height: auto;
-    }
+
     .video-background{
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: auto;
+        height: 300px;
     }
 }
 
