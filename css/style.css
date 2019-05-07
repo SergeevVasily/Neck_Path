@@ -520,7 +520,7 @@ hr{
 }
 
 .content-wrap a{
-    color:gold;
+    color:#fff;
 }
 
 .fly-in-text{
@@ -532,7 +532,7 @@ hr{
     display: inline-block;
     overflow: auto;
     font-size: 1em;
-    color: gold;
+    color: #fff;
     opacity: 1;
     transition: all 3s ease;
 }
@@ -546,7 +546,7 @@ hr{
     text-align: center;
     font-size: 1em;
     text-decoration: none;
-    color: gold;
+    color: #fff;
     opacity: 0.7;
     margin-top: 30px;
     transition: all 1s ease 3s;
