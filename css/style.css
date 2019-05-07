@@ -322,7 +322,7 @@ ul li a:focus{
 }
 
 .contact label{
-    color: #000;
+    color: #fff;
     font-size: 1.25rem;
 }
 
@@ -581,5 +581,4 @@ hr{
     height: auto;
 }
 .video-background{
-    height: 100vh;
 }
