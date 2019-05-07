@@ -536,7 +536,7 @@ hr{
     display: inline-block;
     overflow: auto;
     font-size: 1em;
-    color: #fff;
+    color: gold;
     opacity: 1;
     transition: all 3s ease;
 }
