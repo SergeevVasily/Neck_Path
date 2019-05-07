@@ -585,9 +585,8 @@ hr{
 .content-hidden .enter-button {opacity: 0; transform: translate3d(0, -30px, 0)}
 
 .video{
-    height: 100vh;
-    position: relative;
+    width: 100%;
+    height: auto;
 }
 .video-background{
-    bottom: 0;
 }
